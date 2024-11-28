@@ -1,6 +1,7 @@
 // Import necessary modules
 import React from "react";
 import Image from "next/image";
+import ProfilePic from "/public/images/herosec-img.png"
 
 // Define the content for the hero section
 const heroContent = {
@@ -34,10 +35,10 @@ const HeroSection = () => {
         {/* Hero image */}
         <Image
           className="rounded-full"
-          src={heroContent.image}
+          src={ProfilePic}
           alt="Picture of author"
           layout="fill" // Use 'fill' to make the image fill the container
-          objectFit="cover" // Adjust the objectFit property as needed
+          //objectFit="cover" // Adjust the objectFit property as needed
         />
       </div>
     </div>
